@@ -2,7 +2,7 @@
 
 # 1. To install lamp server on ubuntu 16.04
 
-    sudo apt-get update
+    sudo apt-get update && sudo apt-get upgrade -y
     sudo apt-get install tasksel
     sudo tasksel install lamp-server
 
