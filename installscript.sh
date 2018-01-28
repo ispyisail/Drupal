@@ -50,8 +50,11 @@
 	echo "Type the password for your new user, followed by [ENTER]:"
 	read PASS
 
+	echo "Type MySQL ROOT password, followed by [ENTER]:"
 
-	mysql -uroot <<MYSQL_SCRIPT
+
+	sudo mysql mysql -p <<MYSQL_SCRIPT
+
 	CREATE DATABASE $DB;
 	CREATE USER '$USR'@'localhost' IDENTIFIED BY '$PASS';
 	GRANT ALL PRIVILEGES ON $DB.* TO '$USR'@'localhost';
