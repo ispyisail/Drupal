@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#This script is for Ubuntu Server 16.04 and Drupal 8
+
 # 1. To install lamp server on ubuntu 16.04
 
     sudo apt-get update && sudo apt-get upgrade -y
@@ -8,7 +10,7 @@
 
 # 2. Install package named `drush` ( drush = Drupal shell, To download latest version of Drupal via command line)
 
-    sudo apt-get install drush php-xml  php7.0-gd -y
+    sudo apt-get install drush php-xml -y
 
 # 3. Change working directory to /var/www/html
 
@@ -16,7 +18,7 @@
 
 # 4. Select and Download the latest version of Drupal
 	
-    sudo drush dl drupal-7
+    sudo drush dl drupal-8
     cd ./drupal*
     
 # 5. Change the ownership of root directory for server(ie /var/www/html)
