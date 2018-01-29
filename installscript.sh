@@ -8,7 +8,7 @@
 
 # 2. Install package named `drush` ( drush = Drupal shell, To download latest version of Drupal via command line)
 
-    sudo apt-get install drush php-xml -y
+    sudo apt-get install drush php-xml  php7.0-gd -y
 
 # 3. Change working directory to /var/www/html
 
