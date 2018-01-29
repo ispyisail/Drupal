@@ -16,7 +16,7 @@
 
 # 4. Select and Download the latest version of Drupal
 	
-    sudo drush dl drupal-8
+    sudo drush dl drupal-7
     cd ./drupal*
     
 # 5. Change the ownership of root directory for server(ie /var/www/html)
@@ -30,7 +30,7 @@
      
 # 7. Install `phpmyadmin`
      
-     sudo apt-get install phpmyadmin -y
+    # sudo apt-get install phpmyadmin -y
 
 # 8. Open phpmyadmin at http://localhost/phpmyadmin Optional
 
