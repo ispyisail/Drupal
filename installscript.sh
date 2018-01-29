@@ -59,7 +59,7 @@
 	CREATE USER '$USR'@'localhost' IDENTIFIED BY '$PASS';
 	GRANT ALL PRIVILEGES ON $DB.* TO '$USR'@'localhost';
 	FLUSH PRIVILEGES;
-	MYSQL_SCRIPT
+MYSQL_SCRIPT
 
 	echo "MySQL user created."
 	echo "Database:   $DB"
