@@ -10,7 +10,7 @@
 
 # 2. Install package named `drush` ( drush = Drupal shell, To download latest version of Drupal via command line)
 
-    sudo apt-get install drush php-xml -y
+    sudo apt-get install drush -y
 
 # 3. Change working directory to /var/www/html
 
@@ -28,7 +28,7 @@
 # 6. Install package named `composer`. 
      # Composer is a PHP package management tool to help manage your project or libraries' dependencies. 
     
-     sudo apt-get install composer -y
+     #sudo apt-get install composer -y
      
 # 7. Install `phpmyadmin`
      
