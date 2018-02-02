@@ -28,12 +28,15 @@
 # 6. Install package named `composer`. 
      # Composer is a PHP package management tool to help manage your project or libraries' dependencies. 
     
-     sudo apt-get install curl -y
-	 
-	 sudo curl -s https://getcomposer.org/installer | php
-	 
-	 sudo mv composer.phar /usr/local/bin/composer
-     
+    sudo apt-get install curl php-cli php-mbstring git unzip
+	  
+	cd ~
+	  
+	curl -sS https://getcomposer.org/installer -o composer-setup.php
+
+	sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
+	
+	
 # 7. Install `phpmyadmin`
      
     # sudo apt-get install phpmyadmin -y
