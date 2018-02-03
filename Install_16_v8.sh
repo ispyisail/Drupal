@@ -28,7 +28,7 @@
 # 6. Install package named `composer`. 
      # Composer is a PHP package management tool to help manage your project or libraries' dependencies. 
     
-    sudo apt-get install curl php-cli php-mbstring git unzip
+    sudo apt-get install curl php-cli php-mbstring git unzip php-gd
 	  
 	cd ~
 	  
